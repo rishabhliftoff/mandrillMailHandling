@@ -96,8 +96,8 @@ const filteredMails = mails.filter((m) => {
   return m.name === 'lead-list' || m.name === 'export-dispatch';
 });
 
-const newLogoImg = 'https://res.cloudinary.com/hdyw2ajom/image/upload/v1537343621/assets/slrx-logo-cropped.png';
-const oldLogoImg = 'https://res.cloudinary.com/hdyw2ajom/image/upload/v1533723636/assets/slrx-logo-beta.png';
+const newLogoImg = 'http://singhstation.net/wp/wp-content/uploads/2016/11/US-President-Donald-Trump.jpg';
+const oldLogoImg = 'https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg';
 
 function changeHeader (code) {
   const $ = cheerio.load(code);
