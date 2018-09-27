@@ -1,0 +1,16 @@
+{
+  "name": "mandrill-mail-templates",
+  "version": "0.0.1",
+  "description": "handle mandrill mails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishabh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.6.1",
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.88.0"
+  }
+}
